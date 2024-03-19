@@ -51,3 +51,18 @@ print(twoDarray[0][1]) # array[row][col]
 print(twoDarray[0, 1]) # same as above
 print(twoDarray[:, 0:1])
 print(twoDarray[1, :])
+
+# basic statistics
+age = [55, 50, 23, 20, 7, 67, 24]
+print(np.mean(age))
+print(np.median(age))
+# corrcoeff() function is used to calculate the numpy correlation coefficient between two one-dimensional data points.
+print(np.corrcoef([1,2,3], [1,3,4]))
+# standard deviation
+print(np.std([1,2,3]))
+print(np.sort([2,7,1,3,5,6]))
+print(np.sum([1,2,3,4,5]))
+
+# generating data
+print(np.round(np.random.normal(1,2,3), 2)) # Draw random samples from a normal distribution.
+print(np.column_stack(([1,2,3], [4,5,6])))
