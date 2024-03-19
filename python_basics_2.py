@@ -17,3 +17,33 @@ print(world)
 world["india"] = 55.57
 world.update({"india": 55.68})
 print(world)
+
+# comparison operators
+# > less than
+# >= less than or equals to
+# < greater than
+# <= greater than or equals to
+# == equals to 
+# = assign
+# != not equals to 
+
+# Boolean Operators
+# and
+# true and true => true
+# true and false => false
+# false and true => false
+# false and false => false
+
+# or
+# true or true => true
+# true or false => true
+# false or true => true
+# false or false => false
+
+# array equivalents of and or not
+# logical_and()
+# logical_or()
+# logical_not()
+import numpy as np;
+bmi = np.array([20, 15, 78, 34, 67, 12, 89, 23])
+print(np.logical_and(bmi > 15, bmi < 40))
